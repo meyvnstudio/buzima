@@ -1,0 +1,89 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: $transition;
+  scroll-behavior: smooth;
+}
+
+// LIGHT MODE
+.light-mode {
+  --bg-color: #{$light-bg-color};
+  --text-primary: #{$light-text-primary};
+  --text-secondary: #{$light-text-secondary};
+  --brand-primary: #{$light-brand-primary};
+  --accent-color: #{$light-accent-color};
+  --soft-ui-color: #{$light-ui-soft-color};
+  --border-color: #{$light-border-color};
+}
+
+// DARK MODE
+.dark-mode {
+  --bg-color: #{$dark-bg-color};
+  --text-primary: #{$dark-text-primary};
+  --text-secondary: #{$dark-text-secondary};
+  --brand-primary: #{$dark-brand-primary};
+  --accent-color: #{$dark-accent-color};
+  --soft-ui-color: #{$dark-ui-soft-color};
+  --border-color: #{$dark-border-color};
+}
+
+body {
+  font-family: $primary-font;
+  font-size: $font-size-body;
+  background: var(--bg-color);
+  color: var(--text-secondary);
+  transition: $transition;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: $transition;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  font-family: $primary-font;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button,
+input,
+select,
+textarea {
+  border: 0;
+  outline: 0;
+  background: none;
+}
+
+span {
+  position: relative;
+  display: flex;
+}
+
+// REUSABLE CSS
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+}

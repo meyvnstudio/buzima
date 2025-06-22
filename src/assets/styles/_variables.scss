@@ -1,0 +1,36 @@
+$transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+
+// light mode
+$light-bg-color: #f9fafb;
+$light-text-primary: #1a2e3b;
+$light-text-secondary: #4a5a68;
+$light-brand-primary: #00d1a0;
+$light-accent-color: #ff6b5a;
+$light-ui-soft-color: #cff5ec;
+$light-border-color: #e4e7eb;
+
+
+// dark mode 
+$dark-bg-color: #1a2e3b;
+$dark-text-primary: #f9fafb;
+$dark-text-secondary: #cff5ec;
+$dark-brand-primary: #00d1a0;
+$dark-accent-color: #ff6b5a;
+$dark-ui-soft-color: #2a3c4a;
+$dark-border-color: #3d4e5c;
+
+
+$primary-font: "Manrope", sans-serif;
+$secondary-font: "Inter", sans-serif;
+
+
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-bold: 700;
+$font-black: 900;
+
+$font-size-small: 12px;
+$font-size-body: 16px;
+$font-size-large: 21px;
+$font-size-heading: 32px;
